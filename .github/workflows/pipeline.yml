@@ -1,6 +1,6 @@
  name: Prometheus Deploy
 
-on:
+ on:
   push:
     branches:
       - main
@@ -8,7 +8,7 @@ on:
     branches:
       - main
 
-jobs:
+ jobs:
   prometheus:
     runs-on: ubuntu-latest
 
